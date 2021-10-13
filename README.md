@@ -7,4 +7,4 @@ http://brendanli.tk/indexbin.html
 The first page ("Number Converter") of this site is a converter for binary, decimal, octal, and hexidecimal numbers. The second page ("Two's Complement") is simply to
 conver decimal numbers to their two's complement representation (or vice versa).
 
-You can find me code in this repository...I used external JS and CSS files in order to keep it more organized. 
+You can find my code for it all in this repository...I used external JS and CSS files in order to keep it more organized. 
