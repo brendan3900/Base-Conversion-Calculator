@@ -1,5 +1,5 @@
 # Base-Conversion-Calculator
-I made a website that can be used as a base conversion calculator! Fun stuff.
+I made a website that can be used as a base conversion calculator! Fun stuff. This was initially made for a class project, but I thought it was pretty cool.
 
 Link: 
 http://brendanli.tk/indexbin.html
