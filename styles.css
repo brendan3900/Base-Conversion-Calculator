@@ -1,0 +1,135 @@
+/* BRENDAN LI | NUID: 001386816
+CS1800 FINAL PROJECT
+CASCADING STYLESHEET FOR WEBSITE*/
+
+
+/* TOP NAVIGATION */
+.topnav {
+  background-color: #2E86C1;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Links inside the navigation bar */
+.topnav a {
+   width: 50%;
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 3rem;
+  
+}
+/* Color of links on hover */
+.topnav a:hover {
+  background-color: #B3B1A6;
+  color: black;
+}
+.topnav a.active {
+  background-color: #943126;
+  color: black;
+}
+.topnav a.active:hover {
+  background-color: #B3B1A6;
+  color: black;
+}
+
+ /* ALL BODY CONTROLS */
+ body {
+  background-color: #FFC300;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* NUMBER REP CONTAINERS */
+#containerF {
+  display: flex;
+  color: black;
+  margin: 50px auto;
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
+/* TWO'S COMPLEMENT CONTAINERS */
+#containerS {
+  display: flex;
+  color: black;
+  margin: 50px auto;
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
+/* HEADER 1 */
+h1 {
+  font-size: 2rem;
+}
+
+/* LABELS */
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* WHEN INPUT */
+input {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 3px solid #ffffff;
+  border-color: black;
+  color: #ffffff;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  height: 50px;
+  margin: 10px auto;
+  outline: 1px solid transparent;
+  text-align: center;
+  text-transform: uppercase;
+  transition: .3s ease;
+  width: 40%;
+}
+input:focus {
+  border: 3px solid #ffffff;
+  background-color: white;
+  width: 50%;
+  color:black;
+}
+
+/* FOR THE HOLDER OF BOXES */
+::placeholder {
+  color: #ffffff80;
+  font-weight: normal;
+}
+
+/* FOOTER CONTROL */
+footer {
+  padding: 5px;
+  color: black;
+}
+
+/* FOR MEDIAAAAA */
+@media (max-width: 767px) {
+  body {
+      height: 100%;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  input {
+      width: 80%;
+  }
+
+  input:focus {
+      width: 90%;
+  }
+}
